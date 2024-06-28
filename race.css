@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.hpl{
+    width: 50px;
+    height: 50px;
+    border-radius:300px;
+}
+
+h1 {
+    padding-top: 10px;
+    color: rgb(250, 218, 218);
+    font-size:27px;
+}
+
+.navbar {
+    display: flex;
+    background-color: #627c82;
+    position:sticky;
+    top:0px;
+    height:50px;
+    padding-right:10px
+}
+
+.container {
+    display: flex;
+    width: 65%;
+    gap: 24px;
+}
+
+.link-btn li img{
+    width: 35px;
+    height: 35px;
+    cursor:pointer;
+    margin:-10px;
+    
+}
+.link-btn {
+    color: rgb(236, 115, 115);
+   
+    display: flex;
+    gap: 50px;
+    padding-right: 7px;
+    padding-top: 20px;
+}
+
+.link-btn li {
+   
+    list-style: none;
+}
+
+.link-btn li a {
+    
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:hover{
+    background-color: #ea0b39;
+    height: 20px;
+    border-radius:3px;
+    
+}
+
+.smnu {
+    height: 36vh;
+    width: 200px;
+    background-color: #605e5e87;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 50px;
+right: 33px;
+display:none;
+}
+
+.smnu a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+.smnu img{
+    width:27px;
+    height:24px;
+}
+
+.smnu a:hover {
+    background-color: #8b8080e6;
+    border-radius:12px;
+}
+.h1 img{
+    margin:0px;
+    padding:0px;
+ height:250px;
+ width:100%;
+} 
+.jannat{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:15px 450px;
+    font-size:36px;
+  background-color:#1cfac7;
+    width:600px; 
+    
+    
+}
+      .photo img{
+        height:600px;
+ width:100%;
+          margin:30px 0px
+      }  
+       
+     .gphoto img{
+        height:30px;
+        width:60%;
+     }   
+     .nextp img{
+        height:660px;
+        width:100%;
+     }  
+     .text{
+        background-color:#ef0808;
+        width:75%;
+        font-size:36px;
+        margin:30px 174px;
+    } 
+        
+#mnu-btn{
+    display:none;
+}
+
+@media only screen and (max-width:768px){
+    .link-btn .link{
+        display:none;
+
+    }
+    #mnu-btn{
+        display:block;
+        
+    }
+    
+ 
+    .h1 img{
+        height:30vw;
+        width:100%;
+       } 
+             .photo img{
+               height:50vw;
+        width:100%;
+             }  
+             .jannat{
+                font-size:3vw;
+                width:45vw;
+                margin-left:27vw;
+               
+            }
+            .nextp img{
+                height:50vw;
+                  width:100%;
+              }
+              .text{
+                display:flex;
+                        
+                        margin-left:12vw;
+                    }
+}
