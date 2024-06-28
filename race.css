@@ -67,7 +67,8 @@ h1 {
 }
 
 .smnu {
-    height: 36vh;
+    gap:3px;
+    height: 48vh;
     width: 200px;
     background-color: #605e5e87;
     position: fixed;
