@@ -70,13 +70,15 @@ h1 {
     gap:3px;
     height: 48vh;
     width: 200px;
-    background-color: #605e5e87;
+    background-color: #63494987;
     position: fixed;
     display: flex;
     flex-direction: column;
     top: 50px;
 right: 33px;
 display:none;
+backdrop-filter:blur(10px);
+box-shadow: -10px 0 10px rgba(23, 23, 23, 0.3);
 }
 
 .smnu a {
@@ -93,7 +95,7 @@ display:none;
 }
 
 .smnu a:hover {
-    background-color: #8b8080e6;
+    background-color: #f10808e6;
     border-radius:12px;
 }
 .h1 img{
