@@ -116,17 +116,27 @@ display:none;
       .photo img{
         height:600px;
  width:100%;
-          margin:30px 0px
+          margin:0px 0px
       }  
        
      .gphoto img{
         height:30px;
         width:60%;
-     }   
+     }  
+     .photo #great{
+        background: linear-gradient(to left,violet,rgb(190, 145, 222),rgb(176, 176, 234),rgb(162, 241, 162),rgb(229, 229, 135),rgb(244, 177, 52),rgb(243, 106, 106));
+        color:rgb(140, 74, 248);
+        text-align:center;
+     } 
      .nextp img{
         height:660px;
-        width:100%;
+        width:100%;   
      }  
+     .nextp #gred{
+        background: linear-gradient(to left,violet,rgb(190, 145, 222),rgb(176, 176, 234),rgb(162, 241, 162),rgb(229, 229, 135),rgb(244, 177, 52),rgb(243, 106, 106));
+    color:rgb(140, 74, 248);
+    text-align:center;
+    }
      .text{
         background-color:#ef0808;
         width:75%;
